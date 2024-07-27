@@ -1,8 +1,10 @@
 .navbar {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    position: relative;
 }
 
 .nav-logo {
@@ -15,22 +17,18 @@
     color: #171717;
     font-size: 38px;
     font-weight: 600;
-    margin: 0; 
+    margin: 0;
 }
 
 .navbar .navbar-brand img {
     height: 50px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .navbar .navbar-brand {
     display: flex;
     align-items: center;
-    text-decoration: none; 
-}
-
-.navbar-brand img {
-    display: block; 
+    text-decoration: none;
 }
 
 .nav-menu {
@@ -41,6 +39,7 @@
     color: #626262;
     font-size: 20px;
     font-weight: 500;
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-menu li {
@@ -50,6 +49,20 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+}
+
+.nav-menu li a {
+    color: black; /* Ensure text color is black */
+    text-decoration: none; /* Remove underlines */
+}
+
+.nav-menu li a:active,
+.nav-menu li a:focus {
+    color: black; /* Ensure color remains black on active and focus */
+}
+
+.nav-menu li.active a {
+    color: black; /* Ensure color remains black for active state */
 }
 
 .nav-menu hr {
@@ -95,4 +108,24 @@
     font-size: 14px;
     background: red;
     color: white;
+}
+
+.nav-menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu-toggle {
+        display: block;
+    }
 }

@@ -9,21 +9,21 @@ const Hero = () => {
         <div className='hero'>
             <div className="hero-left">
                 <h2>New Arrivals</h2>
-                <div>
+                <div className="hero-text-container">
                     <div className="hero-hand-icon">
                         <p>Performance</p>
-                        <img src={turbo} alt="" />
+                        <img src={turbo} alt="Turbo" />
                     </div>
                     <p>OEM</p>
                     <p>Specials</p>
                 </div>
                 <div className="hero-latest-btn">
                     <div>Latest Collection</div>
-                    <img src={arrow_icon} alt="" />
+                    <img src={arrow_icon} alt="Arrow" />
                 </div>
             </div>
             <div className="hero-right">
-                <img src={performance_part} alt="" />
+                <img src={performance_part} alt="Performance Part" />
             </div>
         </div>
     )

@@ -23,17 +23,17 @@ import p22_img from "./product_22.jpg";
 import p23_img from "./product_23.jpg";
 import p24_img from "./product_24.jpg";
 import p25_img from "./product_25.jpg";
-// import p26_img from "./product_26.png";
-// import p27_img from "./product_27.png";
-// import p28_img from "./product_28.png";
-// import p29_img from "./product_29.png";
-// import p30_img from "./product_30.png";
-// import p31_img from "./product_31.png";
-// import p32_img from "./product_32.png";
-// import p33_img from "./product_33.png";
-// import p34_img from "./product_34.png";
-// import p35_img from "./product_35.png";
-// import p36_img from "./product_36.png";
+import p26_img from "./product_26.jpg";
+import p27_img from "./product_27.jpg";
+import p28_img from "./product_28.jpg";
+import p29_img from "./product_29.jpg";
+import p30_img from "./product_30.jpg";
+import p31_img from "./product_31.jpg";
+import p32_img from "./product_32.jpg";
+import p33_img from "./product_33.jpg";
+import p34_img from "./product_34.jpg";
+import p35_img from "./product_35.jpg";
+import p36_img from "./product_36.jpg";
 
 let all_product = [
   {
@@ -50,36 +50,36 @@ let all_product = [
     category: "performance",
     image: p2_img,
     new_price: 1190.0,
-    old_price: 1290,
+    old_price: 1290.0,
   },
   {
     id: 3,
-    name: "Brembo GT Monoblock 6-Piston Front Brake Caliper Upgrade",
-    category: "performance",
+    name: "Sparco L550 Steering Wheel",
+    category: "specials",
     image: p3_img,
-    new_price: 2295,
-    old_price: 2595,
+    new_price: 250.0,
+    old_price: 275.0,
   },
   {
     id: 4,
-    name: "NISMO LMGT4 Omori Spec Wheel - Single",
-    category: "oem",
+    name: "VOLKRACING TE37 SONIC SL - Single",
+    category: "specials",
     image: p4_img,
-    new_price: 995.45,
-    old_price: 1142.45,
+    new_price: 967.0,
+    old_price: 919.0,
   },
   {
     id: 5,
     name: "BC Racing Type DR",
     category: "performance",
     image: p5_img,
-    new_price: 1300,
-    old_price: 1395.00,
+    new_price: 1300.0,
+    old_price: 1395.0,
   },
   {
     id: 6,
     name: "R35 GTR Fuel Injector",
-    category: "women",
+    category: "performance",
     image: p6_img,
     new_price: 165.99,
     old_price: 185.99,
@@ -113,7 +113,7 @@ let all_product = [
     name: "OEM NISMO 370Z Wheels 2015+ - Single",
     category: "oem",
     image: p10_img,
-    new_price: 800,
+    new_price: 800.0,
     old_price: 820.07,
   },
   {
@@ -134,11 +134,11 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Sparco L550 Steering Wheel",
-    category: "specials",
+    name: "Brembo GT Monoblock 6-Piston Front Brake Caliper Upgrade",
+    category: "performance",
     image: p13_img,
-    new_price: 250.0,
-    old_price: 275.00,
+    new_price: 2295.0,
+    old_price: 2595.0,
   },
   {
     id: 14,
@@ -153,24 +153,24 @@ let all_product = [
     name: "Wisefab Front Drift Angle Lock Kit",
     category: "performance",
     image: p15_img,
-    new_price: 2850.00,
-    old_price: 2800.00,
+    new_price: 2850.0,
+    old_price: 2800.0,
   },
   {
     id: 16,
     name: "EcuTek Performance Tuning Package",
-    category: "performance",
+    category: "specials",
     image: p16_img,
-    new_price: 700,
-    old_price: 750,
+    new_price: 700.0,
+    old_price: 750.0,
   },
   {
     id: 17,
     name: "Fast Intentions Long Tube Headers",
     category: "performance",
     image: p17_img,
-    new_price: 1399.00,
-    old_price: 1979.00,
+    new_price: 1399.0,
+    old_price: 1979.0,
   },
   {
     id: 18,
@@ -190,19 +190,19 @@ let all_product = [
   },
   {
     id: 20,
-    name: "VOLKRACING TE37 SONIC SL - Single",
-    category: "specials",
+    name: "NISMO LMGT4 Omori Spec Wheel - Single",
+    category: "oem",
     image: p20_img,
-    new_price: 967.0,
-    old_price: 919.0,
+    new_price: 995.45,
+    old_price: 1142.45,
   },
   {
     id: 21,
     name: "Armytrix Valvetronic 3.5″ Exhaust System | Cicio Performance",
     category: "performance",
     image: p21_img,
-    new_price: 8510,
-    old_price: 9310,
+    new_price: 8510.0,
+    old_price: 9310.0,
   },
   {
     id: 22,
@@ -233,97 +233,97 @@ let all_product = [
     name: "Sparco Competition Racing Seat(Red) - Single",
     category: "specials",
     image: p25_img,
-    new_price: 1250,
-    old_price: 1195,
+    new_price: 1250.0,
+    old_price: 1195.0,
   },
-  // {
-  //   id: 26,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p26_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 27,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p27_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 28,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p28_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 29,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p29_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 30,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p30_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 31,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p31_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 32,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p32_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 33,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p33_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 34,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p34_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 35,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p35_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 36,
-  //   name: "Boys Orange Colourblocked Hooded Sweatshirt",
-  //   category: "kid",
-  //   image: p36_img,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
+  {
+    id: 26,
+    name: "NISMO Front Strut Tower Bar",
+    category: "oem",
+    image: p26_img,
+    new_price: 429.9,
+    old_price: 489.9,
+  },
+  {
+    id: 27,
+    name: "NISMO Oil Filler Cap",
+    category: "oem",
+    image: p27_img,
+    new_price: 129.5,
+    old_price: 109.5,
+  },
+  {
+    id: 28,
+    name: "NISMO Tire Valve Stem Cap Set - Red",
+    category: "oem",
+    image: p28_img,
+    new_price: 25.0,
+    old_price: 29.99,
+  },
+  {
+    id: 29,
+    name: "NGK Racing Spark Plugs",
+    category: "specials",
+    image: p29_img,
+    new_price: 210.0,
+    old_price: 240.0,
+  },
+  {
+    id: 30,
+    name: "NISMO Recaro Racing Seats",
+    category: "oem",
+    image: p30_img,
+    new_price: 2199.0,
+    old_price: 2499.5,
+  },
+  {
+    id: 31,
+    name: "NISMO Carbon Fiber Shift Knob",
+    category: "oem",
+    image: p31_img,
+    new_price: 99.0,
+    old_price: 94.0,
+  },
+  {
+    id: 32,
+    name: "NISMO Performance Oil Filter",
+    category: "oem",
+    image: p32_img,
+    new_price: 41.43,
+    old_price: 46.79,
+  },
+  {
+    id: 33,
+    name: "NISMO Competition Oil 2108E 0W-30 Motor Oil",
+    category: "oem",
+    image: p33_img,
+    new_price: 88.91,
+    old_price: 90.0,
+  },
+  {
+    id: 34,
+    name: "NISMO Snap-Back Cap",
+    category: "specials",
+    image: p34_img,
+    new_price: 24.99,
+    old_price: 30.0,
+  },
+  {
+    id: 35,
+    name: "NISMO T-Shirt",
+    category: "specials",
+    image: p35_img,
+    new_price: 29.99,
+    old_price: 35.0,
+  },
+  {
+    id: 36,
+    name: "NISMO Hoodie",
+    category: "specials",
+    image: p36_img,
+    new_price: 64.99,
+    old_price: 90.0,
+  },
 ];
 
 export default all_product;

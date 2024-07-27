@@ -12,7 +12,7 @@ import oem_banner from './components/Assets/oem_banner.gif'
 import specials_banner from './components/Assets/specials_banner.jpg'
 import about_banner from './components/Assets/about_banner.gif'
 import Contact from './components/Contact/Contact';
-import AboutUs from './components/AboutUs/AboutUs';
+import About from './components/About/AboutUs'
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
           <Route path='/performance' element={<ShopCategories banner={performance_banner} category='performance' />} />
           <Route path='/oem' element={<ShopCategories banner={oem_banner} category='oem' />} />
           <Route path='/specials' element={<ShopCategories banner={specials_banner} category='specials' />} />
-          <Route path='/about' element={<AboutUs banner={about_banner} />} />
+          <Route path='/about' element={<About banner={about_banner} />} />
           <Route path='/product'>
             <Route index element={<Product />} />
             <Route path=':productId' element={<Product />} />

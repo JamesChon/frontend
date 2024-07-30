@@ -8,7 +8,7 @@ import Item from '../components/Item/Item'
 const ShopCategories = (props) => {
     const { all_product } = useContext(ShopContext);
     return (
-        <div className='shop-catergory'>
+        <div className='shop-category'>
             <img className='shopcategory-banner' src={props.banner} alt="" />
             <div className="shopcategory-indexSort">
                 <p>
@@ -36,3 +36,5 @@ const ShopCategories = (props) => {
 }
 
 export default ShopCategories
+
+

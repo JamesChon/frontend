@@ -65,7 +65,7 @@ let all_product = [
     name: "VOLKRACING TE37 SONIC SL - Single",
     category: "specials",
     image: p4_img,
-    new_price: 967.0,
+    new_price: 867.0,
     old_price: 919.0,
   },
   {

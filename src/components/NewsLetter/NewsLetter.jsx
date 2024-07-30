@@ -29,7 +29,7 @@ const NewsLetter = () => {
                 text: "Subscription successful!",
                 icon: "success"
             });
-            setEmail(''); // Clear the input field
+            setEmail(''); 
         } else {
             Swal.fire({
                 title: "Error!",

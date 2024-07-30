@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import './Footer.css'
 import footer_logo from '../Assets/logo1.gif'
 import instagram_icon from '../Assets/instagram_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
-import facebook_icon from '../Assets/facebook_icon.png'
 import twitter_icon from '../Assets/twitter_icon.png'
 
 const Footer = () => {
